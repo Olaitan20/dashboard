@@ -1,0 +1,16 @@
+.sidebar {
+    width: 25%;
+    background-color: #f7f7f7;
+}
+#navbar {
+  border-bottom: solid 1px rgb(212, 212, 212) ;
+  width: 90%;
+} 
+#main-navbar {
+  border-bottom: solid 1px rgb(212, 212, 212) ;
+  width: 100%;
+} 
+.hover-move-right:hover {
+  transform: translateX(20px); 
+  transition: transform 0.7s ease; 
+}

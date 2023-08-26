@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/Artboard 1lo w.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>GEZAPAY</title>
+</head>
+<body>
+    <!-- navbar -->
+    <section id="main-navbar" class="flex items-center justify-between px-5 lg:hidden">
+        <a href="#"> <img src="./images/Artboard 1.png" alt="" class="w-36"></a>
+        <div>
+            <img src="./images/menu-4-line.svg" alt="" id="hamburger"  class="display lg:hidden">
+            <img src="./images/close-line.svg" alt="menu" id="close" class="w-10 hidden lg:hidden">  
+        </div>
+    </section>
+    <!-- collaspe menu -->
+    <section id="collapsed-menu" class="hidden lg:hidden bg-[#000000] backdrop-blur-lg  text-white text-center absolute z-40 w-full">
+        <ul class="px-10 py-10">
+            <div class="flex hover-move-right mb-8">
+                <img src="./images/home-6-line.svg" alt="">
+                <h1 class="ml-2"><a href="#">Home</a></h1>
+            </div>
+            <div class=""> 
+                <div class="flex it mb-2 text-sm hover-move-right mb-8">
+                    <img src="./images/arrow-left-down-line.svg" alt="">
+                    <h1 class="ml-2"><a href="#">Buy transactions</a></h1>
+                </div>
+                <div class="flex it mb-2 text-sm hover-move-right mb-8">
+                    <img src="./images/arrow-right-up-line.svg" alt="">
+                    <h1 class="ml-2"><a href="#">Sell transactions</a></h1>
+                </div>
+                <div class="flex it mb-2 text-sm hover-move-right mb-8">
+                    <img src="./images/arrow-left-right-line.svg" alt="">
+                    <h1 class="ml-2"><a href="#">Swap transactions</a></h1>
+                </div>
+                <div class="flex it mb-2 text-sm hover-move-right mb-8">
+                    <img src="./images/money-dollar-circle-line.svg" alt="">
+                    <h1 class="ml-2"><a href="#">Balances</a></h1>
+                </div>
+            </div>
+            <div class=""> 
+                <div class="flex it mb-2 text-sm hover-move-right mb-8">
+                    <img src="./images/settings-4-line.svg" alt="">
+                    <h1 class="ml-2"><a href="#">Settings</a></h1>
+                </div>
+                <div class="flex it mb-2 text-sm hover-move-right mb-8">
+                    <img src="./images/user-line.svg" alt="">
+                    <h1 class="ml-2"><a href="#">Team</a></h1>
+                </div>
+                <div class="flex it mb-2 text-sm hover-move-right mb-8">
+                    <img src="./images/message-3-line.svg" alt="">
+                    <h1 class="ml-2"><a href="#">Support</a></h1>
+                </div>
+            </div>
+        </ul>
+    </section> 
+    <!-- texts -->
+    <div class="px-5 lg:hidden">
+        <!-- Main content goes here -->
+        
+        <div class="flex justify-between items-start">
+            <h1 class="text-2xl font-semibold mt-4">Welcome back, <br> John</h1>
+            <p  id="time" class="mt-4
+            "></p>
+        </div>
+     </div>
+
+ <!-- side navigation -->
+ <section class="flex hidden lg:block">
+  <div class="sidebar h-screen fixed top-0 left-0  py-4 px-8">
+    <!-- Sidebar content goes here -->
+    <div class=" flex items-center">
+        <img src="./images/Group 1.svg" alt="profile" class="mr-4">
+        <div>
+            <h1 class="font-semibold mb-[4px]">GEZAPAY</h1>
+            <p class="text-sm">15x44577</p>
+        </div>
+    </div>
+    <section class="pt-10">
+        <div class="flex hover-move-right">
+            <img src="./images/home-6-line.svg" alt="">
+            <h1 class="ml-2"><a href="#">Home</a></h1>
+        </div>
+
+        <h2 class="my-4 text-[#32a8a0] text-md uppercase">Transactions</h2>
+        <div class="px-2"> 
+            <div class="flex it mb-2 text-sm hover-move-right">
+                <img src="./images/arrow-left-down-line.svg" alt="">
+                <h1 class="ml-2"><a href="#">Buy transactions</a></h1>
+            </div>
+            <div class="flex it mb-2 text-sm hover-move-right">
+                <img src="./images/arrow-right-up-line.svg" alt="">
+                <h1 class="ml-2"><a href="#">Sell transactions</a></h1>
+            </div>
+            <div class="flex it mb-2 text-sm hover-move-right">
+                <img src="./images/arrow-left-right-line.svg" alt="">
+                <h1 class="ml-2"><a href="#">Swap transactions</a></h1>
+            </div>
+            <div class="flex it mb-2 text-sm hover-move-right">
+                <img src="./images/money-dollar-circle-line.svg" alt="">
+                <h1 class="ml-2"><a href="#">Balances</a></h1>
+            </div>
+        </div>
+        <h2 class="mt-6 mb-4 text-[#32a8a0] text-md uppercase">Account</h2>
+        <div class="px-2"> 
+            <div class="flex it mb-2 text-sm hover-move-right">
+                <img src="./images/settings-4-line.svg" alt="">
+                <h1 class="ml-2"><a href="#">Settings</a></h1>
+            </div>
+            <div class="flex it mb-2 text-sm hover-move-right">
+                <img src="./images/user-line.svg" alt="">
+                <h1 class="ml-2"><a href="#">Team</a></h1>
+            </div>
+            <div class="flex it mb-2 text-sm hover-move-right">
+                <img src="./images/message-3-line.svg" alt="">
+                <h1 class="ml-2"><a href="#">Support</a></h1>
+            </div>
+        </div>
+    </section>
+  </div>
+    <!-- mainboard -->
+    <div class="flex-1 w-4/6 ml-auto py-4">
+        <!-- Main content goes here -->
+        <h1 id="navbar" class="text-xl text-gray-400 font-semibold pb-4">Dashboard</h1>
+        <div>
+            <h1 class="text-2xl font-semibold my-8">Welcome back,John</h1>
+        </div>
+     </div>
+ </section>
+
+ 
+   
+   <script src="./app.js"></script> 
+</body>
+</html>
