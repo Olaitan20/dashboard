@@ -25,3 +25,9 @@ function updateTime() {
 }
 updateTime();
 setInterval(updateTime, 1000);
+
+var swiper = new Swiper('.swiper-container', {
+    pagination: {
+        el: '.swiper-pagination',
+    },
+});

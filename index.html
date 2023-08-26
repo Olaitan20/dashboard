@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="images/Artboard 1lo w.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <title>GEZAPAY</title>
 </head>
@@ -71,35 +73,102 @@
             <p  id="time" class="mt-4
             "></p>
         </div>
-        <div class="bg-[#32A8A026] mt-6 rounded-lg shadow-lg p-6 w-full">
-            <div class="text-gray-600 mb-4 flex justify-between">
-                <p class="text-sm">USD wallet balance</p>
-                <img src="./images/more-line.svg" alt="">
-            </div>
-            <div class="flex justify-between mb-4">
-                <div class="text-gray-600 flex items-center">
-                    <p class="text-sm text-xl font-medium">$0.00</p>
-                    <img src="./images/arrow-down-s-line.svg" alt="">
+        <!-- atm card -->
+        <div class="swiper-container overflow-hidden">
+            <div class="swiper-wrapper">
+                <!--dollar card -->
+                <div class="swiper-slide bg-[#32A8A026] mt-6 rounded-lg shadow-lg p-6 w-full">
+                    <div class="text-gray-600 mb-4 flex justify-between">
+                        <p class="text-sm">USD wallet balance</p>
+                        <img src="./images/more-line.svg" alt="">
+                    </div>
+                    <div class="flex justify-between mb-4">
+                        <div class="text-gray-600 flex items-center">
+                            <p class="text-sm text-xl font-medium">$0.00</p>
+                        </div>
+                        <div class="text-gray-600">
+                            <img src="./images/usa.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="flex justify-between mt-10 items-center">
+                        <div class="text-gray-600">
+                            <img src="./images/add.svg" alt="plus">
+                            <p class="text-sm  mt-2 text-center">Add</p>
+                        </div>
+                        <div class="text-gray-600">
+                            <img src="./images/send.svg" alt="send">
+                            <p class="text-sm text-center mt-2">Send</p>
+                        </div>
+                        <div class="text-gray-600">
+                            <img src="./images/convert.svg" alt="convert">
+                            <p class="text-sm text-center mt-2">Convert</p>
+                        </div>
+        
+                    </div>
                 </div>
-                <div class="text-gray-600">
-                    <img src="./images/usa.svg" alt="">
+                <!-- pounds card -->
+                <div class="swiper-slide bg-[#32A8A026] mt-6 rounded-lg shadow-lg p-6 w-full">
+                    <div class="text-gray-600 mb-4 flex justify-between">
+                        <p class="text-sm">GBP wallet balance</p>
+                        <img src="./images/more-line.svg" alt="">
+                    </div>
+                    <div class="flex justify-between mb-4">
+                        <div class="text-gray-600 flex items-center">
+                            <p class="text-sm text-xl font-medium">£0.00</p>
+                        </div>
+                        <div class="text-gray-600">
+                            <img src="./images/circle-flags_uk.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="flex justify-between mt-10 items-center">
+                        <div class="text-gray-600">
+                            <img src="./images/add.svg" alt="plus">
+                            <p class="text-sm  mt-2 text-center">Add</p>
+                        </div>
+                        <div class="text-gray-600">
+                            <img src="./images/send.svg" alt="send">
+                            <p class="text-sm text-center mt-2">Send</p>
+                        </div>
+                        <div class="text-gray-600">
+                            <img src="./images/convert.svg" alt="convert">
+                            <p class="text-sm text-center mt-2">Convert</p>
+                        </div>
+        
+                    </div>
                 </div>
-            </div>
-            <div class="flex justify-between mt-10 items-center">
-                <div class="text-gray-600">
-                    <img src="./images/add.svg" alt="plus">
-                    <p class="text-sm  mt-2 text-center">Add</p>
-                </div>
-                <div class="text-gray-600">
-                    <img src="./images/send.svg" alt="send">
-                    <p class="text-sm text-center mt-2">Send</p>
-                </div>
-                <div class="text-gray-600">
-                    <img src="./images/convert.svg" alt="convert">
-                    <p class="text-sm text-center mt-2">Convert</p>
+                <!-- Euros card -->
+                <div class="swiper-slide bg-[#32A8A026] mt-6 rounded-lg shadow-lg p-6 w-full">
+                    <div class="text-gray-600 mb-4 flex justify-between">
+                        <p class="text-sm">EUR wallet balance</p>
+                        <img src="./images/more-line.svg" alt="">
+                    </div>
+                    <div class="flex justify-between mb-4">
+                        <div class="text-gray-600 flex items-center">
+                            <p class="text-sm text-xl font-medium">€0.00</p>
+                        </div>
+                        <div class="text-gray-600">
+                            <img src="./images/circle-flags_european-union.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="flex justify-between mt-10 items-center">
+                        <div class="text-gray-600">
+                            <img src="./images/add.svg" alt="plus">
+                            <p class="text-sm  mt-2 text-center">Add</p>
+                        </div>
+                        <div class="text-gray-600">
+                            <img src="./images/send.svg" alt="send">
+                            <p class="text-sm text-center mt-2">Send</p>
+                        </div>
+                        <div class="text-gray-600">
+                            <img src="./images/convert.svg" alt="convert">
+                            <p class="text-sm text-center mt-2">Convert</p>
+                        </div>
+        
+                    </div>
                 </div>
 
             </div>
+            <div class="swiper-pagination mt-0"></div>
         </div>
      </div>
 
